@@ -20,7 +20,7 @@ const selectMediaStream = async () => {
 button.addEventListener("click", async () => {
   //Disable button
   button.disabled = true;
-  //start picture in picture in vdeo without clicking yourself and wait for that to happen
+  //start picture in picture in vdieo without clicking yourself and wait for that to happen
   await video.requestPictureInPicture();
   //reset button
   button.disabled = true;

@@ -23,7 +23,7 @@ button.addEventListener("click", async () => {
   //start picture in picture in vdieo without clicking yourself and wait for that to happen
   await video.requestPictureInPicture();
   //reset button
-  button.disabled = true;
+  button.disabled = false;
 });
 
 selectMediaStream();
